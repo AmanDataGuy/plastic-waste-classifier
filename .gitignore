@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-models/
+models/xception_best.h5
+models/densenet_best.h5
 data/
 # Distribution / packaging
 .Python
@@ -217,3 +218,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+models/*.h5
